@@ -1,0 +1,31 @@
+header {
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+form {
+    border: solid 2px black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2.5%;
+    background-color: white;
+    padding: 50px;
+    text-align: left;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+}
+
+#mainContent {
+    width: 100%;               /* Full width relative to the parent container */
+    height: 150px;             /* Fixed height */
+    padding: 5px 5px;        /* Padding inside the textarea */
+    border-radius: 4px;        /* Rounded corners */
+    resize: none;              /* Disable resizing of the textarea */
+}

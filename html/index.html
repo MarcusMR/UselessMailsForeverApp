@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Useless Emails Forever</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Subscribe to useless Emails forever</h1>
+    </header>
+    <main>
+        <form action="http://127.0.0.1:5000/addSub" method="post">
+            <!-- Email Address Field -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <!-- Send Time Field -->
+            <label for="sendTime">Daily Send Time:</label><br>
+            <input type="time" id="send-time" name="sendtime" required><br>
+
+            <!-- Subject Field -->
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required><br>
+
+            <!-- Main Content Field -->
+            <label for="main content">Main Content:</label><br>
+            <textarea  type="text" id="mainContent" name="content" required></textarea>
+            <br>
+            
+            <!-- Submit Button -->
+            <button type="submit">Subscribe</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
